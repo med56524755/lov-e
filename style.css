@@ -1,0 +1,33 @@
+html {
+	overflow: scroll;
+	overflow-x: hidden; 
+  }
+  ::-webkit-scrollbar {
+	width: 0;  /* Remove scrollbar space */
+	background: transparent;  /* Optional: just make scrollbar invisible */
+  }
+  /* Optional: show position indicator in red */
+  ::-webkit-scrollbar-thumb {
+	background: #FF0000;
+  }
+body{
+	margin:0;
+	padding: 0;
+	background:#000;
+}
+
+p {
+	margin: 0.3%;
+	margin-top: 0.2%;
+	font-size:80%;
+	line-height:100%;
+	text-align:justify;
+	-webkit-background-size:cover;
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background: url("https://i.ibb.co/WcYb23V/islem.jpg") no-repeat center/cover;
+	background-attachment: fixed;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: rgb(225, 225, 255, 0);
+}
